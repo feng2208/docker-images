@@ -58,7 +58,8 @@ docker pull registry.gitlab.com/feng2208/a/python:3.13.3
 
 - [redis](https://github.com/feng2208/docker-images/pkgs/container/redis)
 ```ruby
-ghcr.io/feng2208/redis:7.4.2
+docker pull ghcr.io/feng2208/redis:7.4.3
+docker pull registry.gitlab.com/feng2208/a/redis:7.4.3
 ```
 
 - [ubuntu](https://github.com/feng2208/docker-images/pkgs/container/ubuntu)
