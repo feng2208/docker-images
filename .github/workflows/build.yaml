@@ -86,7 +86,13 @@ jobs:
                   fi
                   
                   image_name=$(echo $image|awk -F ':' '{print $1}')
-                  echo "- $image_name" >> $readme
+                  image_owner=$(head -n 1 $pushed_file | tr -d '[:space:]'|awk -F '/' '{print $2}')
+                  if [[ "$image_owner" == "feng2208" ]]; then
+                    image_url="https://github.com/feng2208/docker-images/pkgs/container/${image_name////%2F}"
+                  else
+                    image_url="https://github.com/${GITHUB_REPOSITORY}/pkgs/container/${image_name////%2F}"
+                  fi
+                  echo "- [$image_name]($image_url)" >> $readme
                   echo '```ruby' >> $readme
                   echo "$(cat $pushed_file)" >> $readme
                   echo '```' >> $readme
