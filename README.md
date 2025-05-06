@@ -9,6 +9,12 @@
 - 如果想要其他镜像请提 issue，或者直接 fork 本 repo，启用 actions，然后在 hub 目录新建文件，内容为镜像的名称及 tag，请参考 [hub/nginx](https://github.com/feng2208/docker-images/blob/main/hub/nginx)。
 
 镜像列表：
+- [grafana/grafana](https://github.com/feng2208/docker-images/pkgs/container/grafana%2Fgrafana)
+```ruby
+docker pull ghcr.io/feng2208/grafana/grafana:12.0.0
+docker pull registry.gitlab.com/feng2208/a/grafana/grafana:12.0.0
+```
+
 - [mariadb](https://github.com/feng2208/docker-images/pkgs/container/mariadb)
 ```ruby
 docker pull ghcr.io/feng2208/mariadb:11.4.5
