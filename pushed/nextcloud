@@ -1,1 +1,2 @@
-ghcr.io/feng2208/nextcloud:31.0.2
+docker pull ghcr.io/feng2208/nextcloud:31.0.4
+docker pull registry.gitlab.com/feng2208/a/nextcloud:31.0.4

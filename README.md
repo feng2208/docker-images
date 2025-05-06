@@ -23,7 +23,8 @@ docker pull registry.gitlab.com/feng2208/a/mysql:8.4.3
 
 - [nextcloud](https://github.com/feng2208/docker-images/pkgs/container/nextcloud)
 ```ruby
-ghcr.io/feng2208/nextcloud:31.0.2
+docker pull ghcr.io/feng2208/nextcloud:31.0.4
+docker pull registry.gitlab.com/feng2208/a/nextcloud:31.0.4
 ```
 
 - [nginx](https://github.com/feng2208/docker-images/pkgs/container/nginx)
