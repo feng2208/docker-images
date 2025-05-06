@@ -47,7 +47,8 @@ docker pull registry.gitlab.com/feng2208/a/php:8.4.6-cli
 
 - [postgres](https://github.com/feng2208/docker-images/pkgs/container/postgres)
 ```ruby
-ghcr.io/feng2208/postgres:17.4
+docker pull ghcr.io/feng2208/postgres:17.4
+docker pull registry.gitlab.com/feng2208/a/postgres:17.4
 ```
 
 - [python](https://github.com/feng2208/docker-images/pkgs/container/python)
