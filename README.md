@@ -9,50 +9,50 @@
 - 如果想要其他镜像请提 issue，或者直接 fork 本 repo，启用 actions，然后在 hub 目录新建文件，内容为镜像的名称及 tag，请参考 [hub/nginx](https://github.com/feng2208/docker-images/blob/main/hub/nginx)。
 
 镜像列表：
-- mariadb
+- [mariadb](https://github.com/feng2208/docker-images/pkgs/container/mariadb)
 ```ruby
 docker pull ghcr.io/feng2208/mariadb:11.4.5
 docker pull registry.gitlab.com/feng2208/a/mariadb:11.4.5
 ```
 
-- mysql
+- [mysql](https://github.com/feng2208/docker-images/pkgs/container/mysql)
 ```ruby
 docker pull ghcr.io/feng2208/mysql:8.4.3
 docker pull registry.gitlab.com/feng2208/a/mysql:8.4.3
 ```
 
-- nextcloud
+- [nextcloud](https://github.com/feng2208/docker-images/pkgs/container/nextcloud)
 ```ruby
 ghcr.io/feng2208/nextcloud:31.0.2
 ```
 
-- nginx
+- [nginx](https://github.com/feng2208/docker-images/pkgs/container/nginx)
 ```ruby
 docker pull ghcr.io/feng2208/nginx:1.26.3
 docker pull registry.gitlab.com/feng2208/a/nginx:1.26.3
 ```
 
-- php
+- [php](https://github.com/feng2208/docker-images/pkgs/container/php)
 ```ruby
 ghcr.io/feng2208/php:8.4.5-fpm
 ```
 
-- postgres
+- [postgres](https://github.com/feng2208/docker-images/pkgs/container/postgres)
 ```ruby
 ghcr.io/feng2208/postgres:17.4
 ```
 
-- python
+- [python](https://github.com/feng2208/docker-images/pkgs/container/python)
 ```ruby
 ghcr.io/feng2208/python:3.12.8
 ```
 
-- redis
+- [redis](https://github.com/feng2208/docker-images/pkgs/container/redis)
 ```ruby
 ghcr.io/feng2208/redis:7.4.2
 ```
 
-- ubuntu
+- [ubuntu](https://github.com/feng2208/docker-images/pkgs/container/ubuntu)
 ```ruby
 docker pull ghcr.io/feng2208/ubuntu:24.04
 docker pull registry.gitlab.com/feng2208/a/ubuntu:24.04
