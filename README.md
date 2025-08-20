@@ -9,6 +9,12 @@
 - 如果想要其他镜像请提 issue，或者直接 fork 本 repo，启用 actions，然后在 hub 目录新建文件，内容为镜像的名称及 tag，如：`grafana/grafana:12.0.0`或`ubuntu:24.04`。
 
 镜像列表：
+- [adguard/adguardhome](https://github.com/feng2208/docker-images/pkgs/container/adguard%2Fadguardhome)
+```ruby
+docker pull ghcr.io/feng2208/adguard/adguardhome:v0.107.64
+docker pull registry.gitlab.com/feng2208/a/adguard/adguardhome:v0.107.64
+```
+
 - [grafana/grafana](https://github.com/feng2208/docker-images/pkgs/container/grafana%2Fgrafana)
 ```ruby
 docker pull ghcr.io/feng2208/grafana/grafana:12.0.0
