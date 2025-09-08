@@ -1,2 +1,2 @@
-docker pull ghcr.io/feng2208/nginx:1.26.3
-docker pull registry.gitlab.com/feng2208/a/nginx:1.26.3
+docker pull ghcr.io/feng2208/nginx:1.28.0
+docker pull registry.gitlab.com/feng2208/a/nginx:1.28.0
