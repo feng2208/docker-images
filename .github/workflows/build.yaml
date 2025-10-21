@@ -92,7 +92,7 @@ jobs:
                   else
                     image_url="https://github.com/${GITHUB_REPOSITORY}/pkgs/container/${image_name////%2F}"
                   fi
-                  echo "- [$image_name]($image_url)" >> $readme
+                  echo "### [$image_name]($image_url)" >> $readme
                   echo "" >> $readme
                   echo $image|awk -F ':' '{print $1}' >> $readme
                   echo '```ruby' >> $readme
