@@ -25,8 +25,8 @@ docker pull registry.gitlab.com/feng2208/a/gemini-cli:0.9.0
 
 grafana/grafana
 ```ruby
-docker pull ghcr.io/feng2208/grafana/grafana:12.0.0
-docker pull registry.gitlab.com/feng2208/a/grafana/grafana:12.0.0
+docker pull ghcr.io/feng2208/grafana:12.2.0
+docker pull registry.gitlab.com/feng2208/a/grafana:12.2.0
 ```
 
 - [mariadb](https://github.com/feng2208/docker-images/pkgs/container/mariadb)

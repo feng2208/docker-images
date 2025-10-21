@@ -1,2 +1,2 @@
-docker pull ghcr.io/feng2208/grafana/grafana:12.0.0
-docker pull registry.gitlab.com/feng2208/a/grafana/grafana:12.0.0
+docker pull ghcr.io/feng2208/grafana:12.2.0
+docker pull registry.gitlab.com/feng2208/a/grafana:12.2.0
