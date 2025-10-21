@@ -61,6 +61,7 @@ jobs:
                   image_file="$dir/$_file"
                   pushed_file="$pushed_dir/$_file"
                   image=$(head -n 1 $image_file | tr -d '[:space:]')
+                  image_name="$_file"
                   image_tag=$(echo $image|awk -F ':' '{print $2}')
                   pushed_tag="a-fake-tag-fb5ebbe64a7f1d6c7686"
 
@@ -69,14 +70,14 @@ jobs:
                   fi
                   if [[ "$image_tag" != "$pushed_tag" ]]; then
                       echo 'not pushed yet, now pushing.'
-                      github_image="ghcr.io/${GITHUB_REPOSITORY_OWNER}/$image"
+                      github_image="ghcr.io/${GITHUB_REPOSITORY_OWNER}/${image_name}:${image_tag}"
                       docker pull $image
                       docker tag $image $github_image
                       docker push $github_image
                       echo "docker pull $github_image" > $pushed_file
 
                       if [[ "$PUSH_TO_GITLAB" == "yes" ]]; then
-                        gitlab_image="registry.gitlab.com/${GITLAB_REPO}/$image"
+                        gitlab_image="registry.gitlab.com/${GITLAB_REPO}/${image_name}:${image_tag}"
                         docker tag $image $gitlab_image
                         docker push $gitlab_image
                         echo "docker pull $gitlab_image" >> $pushed_file
@@ -85,7 +86,6 @@ jobs:
                       echo "$image pushed."
                   fi
                   
-                  image_name=$(echo $image|awk -F ':' '{print $1}')
                   image_owner=$(head -n 1 $pushed_file | tr -d '[:space:]'|awk -F '/' '{print $2}')
                   if [[ "$image_owner" == "feng2208" ]]; then
                     image_url="https://github.com/feng2208/docker-images/pkgs/container/${image_name////%2F}"
@@ -93,6 +93,7 @@ jobs:
                     image_url="https://github.com/${GITHUB_REPOSITORY}/pkgs/container/${image_name////%2F}"
                   fi
                   echo "- [$image_name]($image_url)" >> $readme
+                  echo $image|awk -F ':' '{print $1}' >> $readme
                   echo '```ruby' >> $readme
                   echo "$(cat $pushed_file)" >> $readme
                   echo '```' >> $readme
