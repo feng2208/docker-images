@@ -13,6 +13,14 @@ docker pull ghcr.io/feng2208/adguardhome:v0.107.64
 docker pull registry.gitlab.com/feng2208/a/adguardhome:v0.107.64
 ```
 
+- [gemini-cli](https://github.com/feng2208/docker-images/pkgs/container/gemini-cli)
+
+us-docker.pkg.dev/gemini-code-dev/gemini-cli/sandbox
+```ruby
+docker pull ghcr.io/feng2208/gemini-cli:0.9.0
+docker pull registry.gitlab.com/feng2208/a/gemini-cli:0.9.0
+```
+
 - [grafana](https://github.com/feng2208/docker-images/pkgs/container/grafana)
 
 grafana/grafana
