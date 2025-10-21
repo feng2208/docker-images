@@ -9,8 +9,8 @@
 
 adguard/adguardhome
 ```ruby
-docker pull ghcr.io/feng2208/adguard/adguardhome:v0.107.64
-docker pull registry.gitlab.com/feng2208/a/adguard/adguardhome:v0.107.64
+docker pull ghcr.io/feng2208/adguardhome:v0.107.64
+docker pull registry.gitlab.com/feng2208/a/adguardhome:v0.107.64
 ```
 
 - [grafana](https://github.com/feng2208/docker-images/pkgs/container/grafana)
