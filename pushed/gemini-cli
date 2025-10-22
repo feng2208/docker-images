@@ -1,2 +1,2 @@
-docker pull ghcr.io/feng2208/gemini-cli:0.9.0
-docker pull registry.gitlab.com/feng2208/a/gemini-cli:0.9.0
+docker pull ghcr.io/feng2208/gemini-cli:0.1.1
+docker pull registry.gitlab.com/feng2208/a/gemini-cli:0.1.1
