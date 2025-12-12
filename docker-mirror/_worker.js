@@ -1,5 +1,5 @@
-const DEFAULT_REGISTRY = 'registry-1.docker.io';
-const DOCKER_HUB_AUTH_URL = 'https://auth.docker.io/token';
+const DEFAULT_REGISTRY = 'dreg.global.ssl.fastly.net';
+const DOCKER_HUB_AUTH_URL = 'https://dauth.global.ssl.fastly.net/token';
 const DOCKER_HUB_SERVICE = 'registry.docker.io';
 
 export default {
@@ -300,3 +300,4 @@ async function handleProxy(request, url) {
     // For successful responses, return as-is
     return resp;
 }
+
