@@ -11,7 +11,7 @@
 ## 镜像列表
 ### [adguardhome](https://github.com/feng2208/docker-images/pkgs/container/adguardhome)
 
-adguard/adguardhome
+adguard/adguardhome:v0.107.64
 ```ruby
 docker pull ghcr.io/feng2208/adguardhome:v0.107.64
 docker pull registry.gitlab.com/feng2208/a/adguardhome:v0.107.64
@@ -19,7 +19,7 @@ docker pull registry.gitlab.com/feng2208/a/adguardhome:v0.107.64
 
 ### [gemini-cli](https://github.com/feng2208/docker-images/pkgs/container/gemini-cli)
 
-us-docker.pkg.dev/gemini-code-dev/gemini-cli/sandbox
+us-docker.pkg.dev/gemini-code-dev/gemini-cli/sandbox:0.21.2
 ```ruby
 docker pull ghcr.io/feng2208/gemini-cli:0.21.2
 docker pull registry.gitlab.com/feng2208/a/gemini-cli:0.21.2
@@ -27,7 +27,7 @@ docker pull registry.gitlab.com/feng2208/a/gemini-cli:0.21.2
 
 ### [grafana](https://github.com/feng2208/docker-images/pkgs/container/grafana)
 
-grafana/grafana
+grafana/grafana:12.2.0
 ```ruby
 docker pull ghcr.io/feng2208/grafana:12.2.0
 docker pull registry.gitlab.com/feng2208/a/grafana:12.2.0
@@ -35,7 +35,7 @@ docker pull registry.gitlab.com/feng2208/a/grafana:12.2.0
 
 ### [mariadb](https://github.com/feng2208/docker-images/pkgs/container/mariadb)
 
-mariadb
+mariadb:11.4.5
 ```ruby
 docker pull ghcr.io/feng2208/mariadb:11.4.5
 docker pull registry.gitlab.com/feng2208/a/mariadb:11.4.5
@@ -43,7 +43,7 @@ docker pull registry.gitlab.com/feng2208/a/mariadb:11.4.5
 
 ### [mysql](https://github.com/feng2208/docker-images/pkgs/container/mysql)
 
-mysql
+mysql:8.4.3
 ```ruby
 docker pull ghcr.io/feng2208/mysql:8.4.3
 docker pull registry.gitlab.com/feng2208/a/mysql:8.4.3
@@ -51,7 +51,7 @@ docker pull registry.gitlab.com/feng2208/a/mysql:8.4.3
 
 ### [nextcloud](https://github.com/feng2208/docker-images/pkgs/container/nextcloud)
 
-nextcloud
+nextcloud:31.0.4
 ```ruby
 docker pull ghcr.io/feng2208/nextcloud:31.0.4
 docker pull registry.gitlab.com/feng2208/a/nextcloud:31.0.4
@@ -59,7 +59,7 @@ docker pull registry.gitlab.com/feng2208/a/nextcloud:31.0.4
 
 ### [nginx](https://github.com/feng2208/docker-images/pkgs/container/nginx)
 
-nginx
+nginx:1.28.0
 ```ruby
 docker pull ghcr.io/feng2208/nginx:1.28.0
 docker pull registry.gitlab.com/feng2208/a/nginx:1.28.0
@@ -67,7 +67,7 @@ docker pull registry.gitlab.com/feng2208/a/nginx:1.28.0
 
 ### [php](https://github.com/feng2208/docker-images/pkgs/container/php)
 
-php
+php:8.4.6-cli
 ```ruby
 docker pull ghcr.io/feng2208/php:8.4.6-cli
 docker pull registry.gitlab.com/feng2208/a/php:8.4.6-cli
@@ -75,7 +75,7 @@ docker pull registry.gitlab.com/feng2208/a/php:8.4.6-cli
 
 ### [postgres](https://github.com/feng2208/docker-images/pkgs/container/postgres)
 
-postgres
+postgres:17.4
 ```ruby
 docker pull ghcr.io/feng2208/postgres:17.4
 docker pull registry.gitlab.com/feng2208/a/postgres:17.4
@@ -83,7 +83,7 @@ docker pull registry.gitlab.com/feng2208/a/postgres:17.4
 
 ### [python](https://github.com/feng2208/docker-images/pkgs/container/python)
 
-python
+python:3.13.3
 ```ruby
 docker pull ghcr.io/feng2208/python:3.13.3
 docker pull registry.gitlab.com/feng2208/a/python:3.13.3
@@ -91,7 +91,7 @@ docker pull registry.gitlab.com/feng2208/a/python:3.13.3
 
 ### [redis](https://github.com/feng2208/docker-images/pkgs/container/redis)
 
-redis
+redis:7.4.3
 ```ruby
 docker pull ghcr.io/feng2208/redis:7.4.3
 docker pull registry.gitlab.com/feng2208/a/redis:7.4.3
@@ -99,7 +99,7 @@ docker pull registry.gitlab.com/feng2208/a/redis:7.4.3
 
 ### [ubuntu](https://github.com/feng2208/docker-images/pkgs/container/ubuntu)
 
-ubuntu
+ubuntu:24.04
 ```ruby
 docker pull ghcr.io/feng2208/ubuntu:24.04
 docker pull registry.gitlab.com/feng2208/a/ubuntu:24.04
