@@ -35,10 +35,10 @@ docker pull registry.gitlab.com/feng2208/a/grafana:12.4.2
 
 ### [mariadb](https://github.com/feng2208/docker-images/pkgs/container/mariadb)
 
-mariadb:11.4.5
+mariadb:11.8.6
 ```ruby
-docker pull ghcr.io/feng2208/mariadb:11.4.5
-docker pull registry.gitlab.com/feng2208/a/mariadb:11.4.5
+docker pull ghcr.io/feng2208/mariadb:11.8.6
+docker pull registry.gitlab.com/feng2208/a/mariadb:11.8.6
 ```
 
 ### [mysql](https://github.com/feng2208/docker-images/pkgs/container/mysql)

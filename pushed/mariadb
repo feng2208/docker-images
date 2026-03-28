@@ -1,2 +1,2 @@
-docker pull ghcr.io/feng2208/mariadb:11.4.5
-docker pull registry.gitlab.com/feng2208/a/mariadb:11.4.5
+docker pull ghcr.io/feng2208/mariadb:11.8.6
+docker pull registry.gitlab.com/feng2208/a/mariadb:11.8.6
