@@ -83,10 +83,10 @@ docker pull registry.gitlab.com/feng2208/a/postgres:18.3
 
 ### [python](https://github.com/feng2208/docker-images/pkgs/container/python)
 
-python:3.13.3
+python:3.14.3
 ```ruby
-docker pull ghcr.io/feng2208/python:3.13.3
-docker pull registry.gitlab.com/feng2208/a/python:3.13.3
+docker pull ghcr.io/feng2208/python:3.14.3
+docker pull registry.gitlab.com/feng2208/a/python:3.14.3
 ```
 
 ### [redis](https://github.com/feng2208/docker-images/pkgs/container/redis)
