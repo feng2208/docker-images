@@ -59,10 +59,10 @@ docker pull registry.gitlab.com/feng2208/a/nextcloud:33.0.1
 
 ### [nginx](https://github.com/feng2208/docker-images/pkgs/container/nginx)
 
-nginx:1.28.0
+nginx:1.28.3
 ```ruby
-docker pull ghcr.io/feng2208/nginx:1.28.0
-docker pull registry.gitlab.com/feng2208/a/nginx:1.28.0
+docker pull ghcr.io/feng2208/nginx:1.28.3
+docker pull registry.gitlab.com/feng2208/a/nginx:1.28.3
 ```
 
 ### [php](https://github.com/feng2208/docker-images/pkgs/container/php)
