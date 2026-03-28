@@ -43,10 +43,10 @@ docker pull registry.gitlab.com/feng2208/a/mariadb:11.4.5
 
 ### [mysql](https://github.com/feng2208/docker-images/pkgs/container/mysql)
 
-mysql:8.4.3
+mysql:8.4.8
 ```ruby
-docker pull ghcr.io/feng2208/mysql:8.4.3
-docker pull registry.gitlab.com/feng2208/a/mysql:8.4.3
+docker pull ghcr.io/feng2208/mysql:8.4.8
+docker pull registry.gitlab.com/feng2208/a/mysql:8.4.8
 ```
 
 ### [nextcloud](https://github.com/feng2208/docker-images/pkgs/container/nextcloud)
