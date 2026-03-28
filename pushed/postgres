@@ -1,2 +1,2 @@
-docker pull ghcr.io/feng2208/postgres:17.4
-docker pull registry.gitlab.com/feng2208/a/postgres:17.4
+docker pull ghcr.io/feng2208/postgres:18.3
+docker pull registry.gitlab.com/feng2208/a/postgres:18.3
