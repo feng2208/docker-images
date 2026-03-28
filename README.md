@@ -67,10 +67,10 @@ docker pull registry.gitlab.com/feng2208/a/nginx:1.28.0
 
 ### [php](https://github.com/feng2208/docker-images/pkgs/container/php)
 
-php:8.4.6-cli
+php:8.4.19
 ```ruby
-docker pull ghcr.io/feng2208/php:8.4.6-cli
-docker pull registry.gitlab.com/feng2208/a/php:8.4.6-cli
+docker pull ghcr.io/feng2208/php:8.4.19
+docker pull registry.gitlab.com/feng2208/a/php:8.4.19
 ```
 
 ### [postgres](https://github.com/feng2208/docker-images/pkgs/container/postgres)

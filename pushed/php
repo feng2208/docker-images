@@ -1,2 +1,2 @@
-docker pull ghcr.io/feng2208/php:8.4.6-cli
-docker pull registry.gitlab.com/feng2208/a/php:8.4.6-cli
+docker pull ghcr.io/feng2208/php:8.4.19
+docker pull registry.gitlab.com/feng2208/a/php:8.4.19
