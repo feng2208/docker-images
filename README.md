@@ -11,10 +11,10 @@
 ## 镜像列表
 ### [adguardhome](https://github.com/feng2208/docker-images/pkgs/container/adguardhome)
 
-adguard/adguardhome:v0.107.64
+adguard/adguardhome:v0.107.73
 ```ruby
-docker pull ghcr.io/feng2208/adguardhome:v0.107.64
-docker pull registry.gitlab.com/feng2208/a/adguardhome:v0.107.64
+docker pull ghcr.io/feng2208/adguardhome:v0.107.73
+docker pull registry.gitlab.com/feng2208/a/adguardhome:v0.107.73
 ```
 
 ### [gemini-cli](https://github.com/feng2208/docker-images/pkgs/container/gemini-cli)
