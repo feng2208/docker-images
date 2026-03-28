@@ -51,10 +51,10 @@ docker pull registry.gitlab.com/feng2208/a/mysql:8.4.3
 
 ### [nextcloud](https://github.com/feng2208/docker-images/pkgs/container/nextcloud)
 
-nextcloud:31.0.4
+nextcloud:33.0.1
 ```ruby
-docker pull ghcr.io/feng2208/nextcloud:31.0.4
-docker pull registry.gitlab.com/feng2208/a/nextcloud:31.0.4
+docker pull ghcr.io/feng2208/nextcloud:33.0.1
+docker pull registry.gitlab.com/feng2208/a/nextcloud:33.0.1
 ```
 
 ### [nginx](https://github.com/feng2208/docker-images/pkgs/container/nginx)
