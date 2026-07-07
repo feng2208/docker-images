@@ -1,1 +1,1 @@
-docker pull ghcr.io/feng2208/gemini-cli:0.41.2
+docker pull ghcr.io/feng2208/gemini-cli:0.49.0
